@@ -1,0 +1,69 @@
+
+  html{
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    height: 100%;
+    background-image: url(paysage-backround.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+
+h1{
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(204, 204, 204);
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: rgb(204, 204, 204);
+}
+
+#contenu{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    text-align: center;
+}
+
+
+footer{
+height: 50px;
+width: 100%;
+margin: auto;
+position: absolute;
+bottom: 0px;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+
+ul img{
+    height: 20px;
+}
+
+
+a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
